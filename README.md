@@ -2,31 +2,24 @@
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://www.linkedin.com/in/charlie-harris-388285156/)
 
 
-# Deriving structural explanations for protein thermal stability using temperature sensitive mutants
+# Placeholder
 
-[Paper](https://github.com/cch1999/protein-stability/blob/master/figs/final_report.pdf) | [Poster](https://github.com/cch1999/protein-stability/blob/master/figs/poster.pdf)
 
-Final Year Project for Biocheminstry degree at Imperial College London looking into which kinds of structural changes account for protein instability.
 
-## Getting Started
-
-![Workflow](https://github.com/cch1999/protein-stability/blob/master/figs/protein-stability-pipeline%20(1).png)
-
-### Programs used
-
-* [Missense3D](http://www.sbg.bio.ic.ac.uk/~missense3d/) - A binary classifier of disease causing mutants and structural changes
-* [FoldX](http://foldxsuite.crg.eu/) - Predictor of changes in folding dG upon a point mutantion
 
 ### Prerequisites used
 
-Python packages used for this project
+```
+graphein
+pytorch
+pytorch-geometric
+dgl
+dgl-lifesci
+rdkit
+get-contacts
+```
 
-```
-matplotlib
-pandas
-numpy
-biopython
-```
+Full installation guide can be found here.
 
 ## Author
 
@@ -38,4 +31,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Acknowledgments
 
-* The author would like to acknowledge the help and supervision of Prof Michael Sternberg and Dr Suhail Islam during this project. 
+* The author would like to acknowledge [Arian Jamasb](https://github.com/a-r-j) for the creation of the Graphein library and his help with using protein graphs.
